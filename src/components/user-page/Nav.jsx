@@ -33,7 +33,7 @@ function nav() {
         {/* Buttons */}
         <div className="flex-none">
           <button className='text-sm mr-3 cursor-pointer w-6'><Link to='/user-cart'><GrCart/></Link></button>
-          <button className='bg-blue text-sm h-8 w-28 text-white'>Username</button>
+          <Link className='bg-blue text-sm text-white py-2 px-4' to='/profile'>Username</Link>
         </div>
       </div>
     </>

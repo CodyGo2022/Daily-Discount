@@ -31,7 +31,7 @@ function nav() {
           <button className='text-sm mr-3 hover:text-blue cursor-pointer'>
             <Link to='/sign-in'>Sign In</Link>
           </button>
-          <button className='bg-blue text-sm h-8 w-28 text-white'>
+          <button className='bg-blue text-sm text-white py-2 px-4'>
             <Link to='/sign-up'>Sign Up</Link>
           </button>
         </div>

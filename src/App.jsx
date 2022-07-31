@@ -12,6 +12,7 @@ import UserHeroesSkins from './components/user-page/HeroesSkins';
 import UserPricing from './components/user-page/Pricing';
 import UserOrderDetails from './components/user-page/OrderDetails';
 import UserCart from './components/user-page/Cart';
+import Profile from './components/user-page/Profile';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route path='/user-pricing' element={<UserPricing/>} />
         <Route path='/user-order-details' element={<UserOrderDetails/>} />
         <Route path='/user-cart' element={<UserCart/>} />
+        <Route path='/profile' element={<Profile/>} />
       </Routes>
     </Router>
   );
