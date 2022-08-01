@@ -19,7 +19,7 @@ function HeroesSkins() {
             </div>
           </div>
           {/* Content */}
-          <div className="grid grid-cols-4 gap-4 p-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4">
+          <div className="grid grid-cols-4 gap-4 p-2 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
             {/* Card */}
             <div className="bg-resale-skin bg-cover bg-black bg-blend-overlay bg-top flex flex-col justify-end h-56 p-4">
               <div className="flex flex-row justify-between items-center">

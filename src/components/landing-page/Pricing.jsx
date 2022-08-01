@@ -22,7 +22,7 @@ function Pricing() {
           <section>
             <h6 className='p-2 text-sm font-semibold'>Price Conversion</h6>
             {/* Content */}
-            <div className="grid grid-cols-4 gap-4 p-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4">
+            <div className="grid grid-cols-4 gap-4 p-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
               {/* Card */}
               <div className="bg-white h-full flex items-center justify-between p-4">
                 <div className="flex flex-row items-center">
@@ -37,7 +37,7 @@ function Pricing() {
           <section>
             <h6 className='p-2 text-sm font-semibold'>Battle Pass</h6>
             {/* Content */}
-            <div className="grid grid-cols-4 gap-4 p-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4">
+            <div className="grid grid-cols-4 gap-4 p-2 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
               {/* Card */}
               <div className="bg-white h-full flex items-center justify-between p-4">
                 <div className="flex flex-row items-center">
