@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import DailyDiscount from '../../img/DailyDiscount.svg'
+import DailyDiscount from '../../img/DailyDiscount.png'
 
 import { HiMenuAlt3 } from 'react-icons/hi'
 
 function nav() {
   return (
     <>
-      <div className="container mx-auto flex justify-between items-center h-auto py-3 px-10 sm:px-2 md:px-6 lg:px-10">
+      <div className="container mx-auto flex justify-between items-center h-auto py-3 px-10 sm:px-2 md-none md:px-6 lg:px-10">
         {/* Logo */}
         <div className="flex-none">
           <Link to='/'>
