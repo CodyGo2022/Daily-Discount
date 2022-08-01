@@ -7,7 +7,7 @@ import { HiMenuAlt3 } from 'react-icons/hi'
 function nav() {
   return (
     <>
-      <div className="container mx-auto flex justify-between items-center h-auto py-3 px-10 sm:px-2">
+      <div className="container mx-auto flex justify-between items-center h-auto py-3 px-10 sm:px-2 md:px-6 lg:px-10">
         {/* Logo */}
         <div className="flex-none">
           <Link to='/'>
@@ -38,7 +38,7 @@ function nav() {
           </button>
         </div>
         {/* Menu */}
-        <div className='sm:visible md:hidden lg:hidden xl:hidden 2xl:hidden'>
+        <div className='sm:visible md:hidden lg:hidden'>
           <div className="flex-none">
             <button className='p-1'>
               <HiMenuAlt3 className='text-lg'/>
