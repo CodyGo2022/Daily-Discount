@@ -25,6 +25,13 @@ module.exports = {
         'resale-skin': "url('https://neartail.com/uploaded/1FAIpQLSchXRWIzBLD61AVIJwJof24cV44-KQpKQRmA1pj6RdQ1B8yFQ/318048638/prdimage/704589AE-9888-4050-94EE-6FF872176A7E.png')"
       }
     },
+    screens: {
+      'sm': {'min': '640px', 'max': '767px'},
+      'md': {'min': '768px', 'max': '1023px'},
+      'lg': {'min': '1024px', 'max': '1279px'},
+      'xl': {'min': '1280px', 'max': '1535px'},
+      '2xl': {'min': '1536px'},
+    },
   },
   plugins: [
     require('@tailwindcss/forms')

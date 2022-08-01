@@ -5,9 +5,9 @@ function Body() {
   return (
     <>
       <div className='h-full flex items-center'>
-        <div className="container mx-auto flex justify-between px-8">
+        <div className="container mx-auto flex justify-between px-8 sm:flex-col-reverse px-1">
           {/* Links */}
-          <div className="flex-none w-1/2">
+          <div className="flex-none w-1/2 sm:w-full">
             <div className="flex flex-col">
               <div className="h-72 w-full h-full p-2">
                 <Link to='/heroes-and-skins' className="flex flex-col justify-end h-full text-white-10 bg-heroes p-4 bg-cover bg-black bg-blend-overlay">
@@ -22,8 +22,8 @@ function Body() {
             </div>
           </div>
           {/* Banner */}
-          <div className="flex-none w-1/2">
-            <div className="h-full w-full p-2">
+          <div className="flex-none w-1/2 sm:w-full">
+            <div className="h-full w-full p-2 sm:h-72 md:h-full lg:h-full xl:h-full 2xl:h-full">
               <div className="flex flex-col justify-end h-full text-white-10 bg-banner p-4 bg-cover bg-black bg-blend-overlay">
                 <ul className="flex">
                   {/* Registered Customer */}

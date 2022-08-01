@@ -6,7 +6,7 @@ function SignUp() {
   return (
     <>
       <div className="h-screen flex items-center justify-center">
-        <div className="container flex flex-col w-2/6 bg-white">
+        <div className="container flex flex-col w-2/6 bg-white sm:w-9/12">
           {/* Logo */}
           <div className="flex items-center px-5 py-3">
             <Link to='/'>

@@ -11,7 +11,7 @@ function HeroesSkins() {
         {/* Nav */}
         <Nav/>
         {/* Body */}
-        <div className="container mx-auto flex flex-col h-full px-8">
+        <div className="container mx-auto flex flex-col h-full px-8 sm:px-2">
           {/* Banner */}
           <div className="h-60 w-full p-2">
             <div className="flex flex-col justify-end h-full text-white-10 bg-heroes-1 p-4 bg-cover bg-black bg-blend-overlay bg-top">
@@ -19,7 +19,7 @@ function HeroesSkins() {
             </div>
           </div>
           {/* Content */}
-          <div className="grid grid-cols-5 gap-4 p-2">
+          <div className="grid grid-cols-4 gap-4 p-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-4">
             {/* Card */}
             <div className="bg-resale-skin bg-cover bg-black bg-blend-overlay bg-top flex flex-col justify-end h-56 p-4">
               <div className="flex flex-row justify-between items-center">
