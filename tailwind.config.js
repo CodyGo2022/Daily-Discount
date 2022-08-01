@@ -31,7 +31,8 @@ module.exports = {
       // 'lg': {'min': '1024px', 'max': '1279px'},
       // 'xl': {'min': '1280px', 'max': '1535px'},
       // '2xl': {'min': '1536px'},
-      'sm': {'min': '640px', 'max': '767px'},
+
+      'sm': {'min': '480px', 'max': '640px'},
       'md': {'min': '1024px', 'max': '1279px'},
       'lg': {'min': '1280px', 'max': '1536px'},
     },
