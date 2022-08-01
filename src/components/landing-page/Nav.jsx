@@ -7,11 +7,11 @@ import { HiMenuAlt3 } from 'react-icons/hi'
 function nav() {
   return (
     <>
-      <div className="container mx-auto flex justify-between items-center h-auto py-3 px-10 sm:px-2 md-none md:px-6 lg:px-10">
+      <div className="container mx-auto flex justify-between items-center h-auto py-3 px-10 sm:px-2 md:px-6 lg:px-10">
         {/* Logo */}
         <div className="flex-none">
           <Link to='/'>
-            <img src={DailyDiscount} alt="Daily Discount" className='w-32 sm:w-28'/>
+            <img src={DailyDiscount} alt="Daily Discount" className='w-32 sm:w-24'/>
           </Link>
         </div>
         {/* Nav Links */}
