@@ -32,9 +32,18 @@ module.exports = {
       // 'xl': {'min': '1280px', 'max': '1535px'},
       // '2xl': {'min': '1536px'},
 
-      'sm': {'min': '380px', 'max': '720px'},
-      'md': {'min': '1024px', 'max': '1279px'},
-      'lg': {'min': '1280px', 'max': '1536px'},
+      // 'sm': {'min': '380px', 'max': '720px'},
+      // 'md': {'min': '1024px', 'max': '1279px'},
+      // 'lg': {'min': '1280px', 'max': '1536px'},
+
+      '3xl': {'max': '1800px'},
+      '2.5xl': {'max': '1650px'},
+      '2xl': {'max': '1535px'},
+      '1.5xl': {'max': '1450px'},
+      'xl': {'max': '1279px'},
+      'lg': {'max': '1023px'},
+      'md': {'max': '767px'},
+      'sm': {'max': '639px'},
     },
   },
   plugins: [

@@ -5,16 +5,16 @@ function Body() {
   return (
     <>
       <div className='h-full flex items-center'>
-        <div className="container mx-auto flex justify-between px-8 sm:flex-col-reverse px-2 md:px-4 lg:px-8">
+        <div className="container mx-auto flex justify-between px-8 sm:flex-col-reverse px-3">
           {/* Links */}
           <div className="flex-none w-1/2 sm:w-full">
             <div className="flex flex-col">
-              <div className="h-72 w-full h-full p-2">
+              <div className="h-72 w-full h-full p-2 sm:px-0 py-2">
                 <Link to='/heroes-and-skins' className="flex flex-col justify-end h-full text-white-10 bg-heroes p-4 bg-cover bg-black bg-blend-overlay">
                   <p>Heroes & Skins</p>
                 </Link>
               </div>
-              <div className="h-72 w-full p-2">
+              <div className="h-72 w-full p-2 sm:px-0 py-2">
                 <Link to='/pricing' className="flex flex-col justify-end h-full text-white-10 bg-pricing p-4 bg-cover bg-black bg-blend-overlay">
                   <p>Pricing</p>
                 </Link>
@@ -23,7 +23,7 @@ function Body() {
           </div>
           {/* Banner */}
           <div className="flex-none w-1/2 sm:w-full">
-            <div className="h-full w-full p-2 sm:h-72 md:h-full lg:h-full">
+            <div className="h-full w-full p-2 sm:h-72 px-0 py-2 md:h-full lg:h-full">
               <div className="flex flex-col justify-end h-full text-white-10 bg-banner p-4 bg-cover bg-black bg-blend-overlay">
                 <ul className="flex">
                   {/* Registered Customer */}
