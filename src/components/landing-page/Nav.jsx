@@ -7,15 +7,15 @@ import { HiMenuAlt3 } from 'react-icons/hi'
 function nav() {
   return (
     <>
-      <div className="container mx-auto flex justify-between items-center h-auto py-3 px-10 sm:px-3 md:px-6 lg:px-10">
+      <div className="container mx-auto flex justify-between items-center h-auto py-3 px-10 sm:px-3 md:px-3 3xl:px-10">
         {/* Logo */}
         <div className="flex-none">
           <Link to='/'>
-            <img src={DailyDiscount} alt="Daily Discount" className='w-32 sm:w-24'/>
+            <img src={DailyDiscount} alt="Daily Discount" className='w-32 sm:w-26 md:w-24 3xl:w-32'/>
           </Link>
         </div>
         {/* Nav Links */}
-        <div className="flex-none sm:hidden">
+        <div className="flex-none sm:hidden md:hidden 3xl:block">
           <ul className="flex list-none text-sm text-black">
             <li className='px-5 hover:text-blue cursor-pointer'>
               <Link to='/'>Home</Link>
@@ -29,7 +29,7 @@ function nav() {
           </ul>
         </div>
         {/* Buttons */}
-        <div className="flex-none sm:hidden">
+        <div className="flex-none sm:hidden md:hidden 3xl:block">
           <button className='text-sm mr-3 hover:text-blue cursor-pointer'>
             <Link to='/sign-in'>Sign In</Link>
           </button>
@@ -38,7 +38,7 @@ function nav() {
           </button>
         </div>
         {/* Menu */}
-        <div className='sm:visible'>
+        <div className='sm:block md:block 3xl:hidden'>
           <div className="flex-none">
             <button className='p-1'>
               <HiMenuAlt3 className='text-2xl'/>
