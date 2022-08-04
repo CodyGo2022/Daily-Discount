@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Body() {
   return (
     <>
-      <div className='h-full flex items-center sm:px-3 md:px-3 3xl:px-10'>
+      <div className='h-full flex items-center sm:px-3 items-start md:px-3 3xl:px-10'>
         <div className="grid grid-rows-2 grid-flow-col gap-2 w-full sm:grid-flow-row order-3 md:grid-flow-row order-3 order-3">
           {/* Heroes & Skins */}
           <div className="col-span-1">
