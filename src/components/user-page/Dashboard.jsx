@@ -6,7 +6,7 @@ import Footer from '../user-page/Footer'
 function Dashboard() {
   return (
     <>
-      <div className="flex flex-col justify-between h-screen sm:h-full">
+      <div className="flex flex-col justify-between sm:h-full md:h-full 3xl:h-full">
         {/* Nav */}
         <Nav/>
         {/* Body */}

@@ -4,7 +4,7 @@ import React from 'react'
 function Footer() {
   return (
     <>
-      <div className="bg-white-20 sm:w-full">
+      <div className="bg-white-20 fixed bottom-0 sm:w-full md:w-[100vw] 3xl:w-[100vw]">
         <div className="container mx-auto flex justify-between items-center py-3 px-10 h-16 sm:px-3 h-12 md:px-3 h-16 3xl:h-16">
           {/* Copyright */}
           <div className="flex-one text-sm sm:text-[12px]">

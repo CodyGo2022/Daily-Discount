@@ -7,13 +7,13 @@ import {IoDiamondOutline, IoGiftOutline} from 'react-icons/io5'
 function Pricing() {
   return (
     <>
-      <div className="flex flex-col justify-between h-screen">
+      <div className="flex flex-col justify-between h-full">
         {/* Nav */}
         <Nav/>
         {/* Body */}
-        <div className="container mx-auto flex flex-col h-full px-10 sm:px-3 md:px-3 3xl:px-10">
+        <div className="container mx-auto flex flex-col h-full px-10 sm:px-3 mb-20 md:px-3 3xl:px-10">
           {/* Banner */}
-          <div className="h-60 w-full p-2 sm: px-0 py-2">
+          <div className="h-60 w-full p-2 sm:h-40 p-0 md:h-60 3xl:h-60">
             <div className="flex flex-col justify-end h-full text-white-10 bg-pricing-1 p-4 bg-cover bg-black bg-blend-overlay bg-top">
               <p className='text-sm sm:text-xs md:text-sm 3xl:text-sm'>Pricing</p>
             </div>

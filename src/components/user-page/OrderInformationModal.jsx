@@ -16,12 +16,12 @@ function OrderInformationModal() {
         <div className='flex justify-center items-center overflow-x-hidden overflow-y-auto fixed inset-0 z-50 bg-black bg-opacity-80'>
           <div className="relative flex justify-center w-[100vw]">
             {/* Card Content */}
-            <div className='bg-white flex flex-col w-9/12 h-full text-black'>
+            <div className='bg-white flex flex-col w-9/12 h-full text-black sm:w-11/12'>
               {/* Card Header */}
               <div className="flex flex-row justify-between text-black text-sm p-4">
                 <section>
-                  <h3 className="text-black text-md font-semibold">Order Information</h3>
-                  <span className="text-black text-sm">Please fill the form to proceed checkout.</span>
+                  <h3 className="text-black text-md font-semibold sm:text-xs md:text-sm 3xl:text-sm">Order Information</h3>
+                  <span className="text-black text-sm sm:text-xs md:text-sm 3xl:text-sm">Please fill the form to proceed checkout.</span>
                 </section>
                 <section>
                   <button className='bg-white rounded-full p-3 hover:bg-white-10' onClick={() => setShowModal(false)}>
@@ -35,42 +35,42 @@ function OrderInformationModal() {
                 <form action='#' className="h-full w-full p-4">
                   {/* Facebook Name */}
                   <label className="block mb-3">
-                    <span className="text-black text-xs font-semibold">Facebook Name</span>
-                    <input type="text" placeholder='Juan Dela Cruz' name="" id="" className="mt-0 block w-full px-0 5 border-0 border-b-2 border-white-20 focus:ring-0 focus:border-black text-sm" required/>
+                    <span className="text-black text-xs font-semibold sm:text-xs md:text-sm 3xl:text-sm">Facebook Name</span>
+                    <input type="text" placeholder='Juan Dela Cruz' name="" id="" className="mt-0 block w-full px-0 5 border-0 border-b-2 border-white-20 focus:ring-0 focus:border-black text-sm sm:text-xs md:text-sm 3xl:text-sm" required/>
                   </label>
                   {/* In-game Name */}
                   <label className="block mb-3">
-                    <span className="text-black text-xs font-semibold">In-game Name</span>
-                    <input type="email" placeholder='MoonKnight' name="" id="" className="mt-0 block w-full px-0 5 border-0 border-b-2 border-white-20 focus:ring-0 focus:border-black text-sm" required/>
+                    <span className="text-black text-xs font-semibold sm:text-xs md:text-sm 3xl:text-sm">In-game Name</span>
+                    <input type="email" placeholder='MoonKnight' name="" id="" className="mt-0 block w-full px-0 5 border-0 border-b-2 border-white-20 focus:ring-0 focus:border-black text-sm sm:text-xs md:text-sm 3xl:text-sm" required/>
                   </label>
                   {/* User ID */}
                   <label className="block mb-3">
-                    <span className="text-black text-xs font-semibold">User ID</span>
-                    <input type="text" placeholder='95034790' name="" id="" className="mt-0 block w-full px-0 5 border-0 border-b-2 border-white-20 focus:ring-0 focus:border-black text-sm" required/>
+                    <span className="text-black text-xs font-semibold sm:text-xs md:text-sm 3xl:text-sm">User ID</span>
+                    <input type="text" placeholder='95034790' name="" id="" className="mt-0 block w-full px-0 5 border-0 border-b-2 border-white-20 focus:ring-0 focus:border-black text-sm sm:text-xs md:text-sm 3xl:text-sm" required/>
                   </label>
                   {/* Server ID */}
                   <label className="block mb-3">
-                    <span className="text-black text-xs font-semibold">Server ID</span>
-                    <input type="text" placeholder='3222' name="" id="" className="mt-0 block w-full px-0 5 border-0 border-b-2 border-white-20 focus:ring-0 focus:border-black text-sm" required/>
+                    <span className="text-black text-xs font-semibold sm:text-xs md:text-sm 3xl:text-sm">Server ID</span>
+                    <input type="text" placeholder='3222' name="" id="" className="mt-0 block w-full px-0 5 border-0 border-b-2 border-white-20 focus:ring-0 focus:border-black text-sm sm:text-xs md:text-sm 3xl:text-sm" required/>
                   </label>
                   {/* Payment Method */}
                   <label className="block mb-3">
-                    <span className="text-black text-xs font-semibold">Payment Method</span>
-                    <span className="text-black text-xs ml-1">(GCash, Paymaya)</span>
-                    <input type="text" placeholder='Select Payment Method' name="" id="" className="mt-0 block w-full px-0 5 border-0 border-b-2 border-white-20 focus:ring-0 focus:border-black text-sm" required/>
+                    <span className="text-black text-xs font-semibold sm:text-xs md:text-sm 3xl:text-sm">Payment Method</span>
+                    <span className="text-black text-xs ml-1 sm:text-xs md:text-sm 3xl:text-sm">(GCash, Paymaya)</span>
+                    <input type="text" placeholder='Select Payment Method' name="" id="" className="mt-0 block w-full px-0 5 border-0 border-b-2 border-white-20 focus:ring-0 focus:border-black text-sm sm:text-xs md:text-sm 3xl:text-sm" required/>
                   </label>
                   {/* Proof of Payment */}
                   <label className="block mb-3">
-                    <span className="text-black text-xs font-semibold">Proof of Payment</span>
-                    <input type="text" placeholder='Upload Receipt' name="" id="" className="mt-0 block w-full px-0 5 border-0 border-b-2 border-white-20 focus:ring-0 focus:border-black text-sm" required/>
+                    <span className="text-black text-xs font-semibold sm:text-xs md:text-sm 3xl:text-sm">Proof of Payment</span>
+                    <input type="text" placeholder='Upload Receipt' name="" id="" className="mt-0 block w-full px-0 5 border-0 border-b-2 border-white-20 focus:ring-0 focus:border-black text-sm sm:text-xs md:text-sm 3xl:text-sm" required/>
                   </label>
                   {/* Total Payment */}
                   <label className="block mb-3">
-                    <span className="text-black text-xs font-semibold">Total Payment</span>
-                    <input type="text" placeholder='Php xxx.xx' name="" id="" className="mt-0 block w-full px-0 5 border-0 border-b-2 border-white-20 focus:ring-0 focus:border-black text-sm" required/>
+                    <span className="text-black text-xs font-semibold sm:text-xs md:text-sm 3xl:text-sm">Total Payment</span>
+                    <input type="text" placeholder='Php xxx.xx' name="" id="" className="mt-0 block w-full px-0 5 border-0 border-b-2 border-white-20 focus:ring-0 focus:border-black text-sm sm:text-xs md:text-sm 3xl:text-sm" required/>
                   </label>
                   {/* Next Process button */}
-                  <button className='bg-blue text-sm h-8 w-28 text-white mt-3'>
+                  <button className='bg-blue text-sm h-8 w-28 text-white mt-3 sm:text-xs md:text-sm 3xl:text-sm'>
                     Next
                   </button>
                 </form>
