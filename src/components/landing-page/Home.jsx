@@ -7,7 +7,7 @@ import Footer from '../landing-page/Footer'
 function Home() {
   return (
     <>
-      <div className="flex flex-col justify-evenly sm:h-full md:h-full 3xl:h-full">
+      <div className="flex flex-col sm:h-full  md:h-full 3xl:h-screen">
         {/* Nav */}
         <Nav/>
         {/* Body */}
