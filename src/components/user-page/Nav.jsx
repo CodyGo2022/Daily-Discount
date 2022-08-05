@@ -50,7 +50,7 @@ function Nav() {
               {/* Side Nav Modal */}
               {showSideNav ? (
                 <div className='flex justify-center items-center overflow-x-hidden overflow-y-auto fixed inset-0 z-50 bg-black bg-opacity-80'>
-                  <div className="relative flex justify-end w-[100vw] h-[100vh]">
+                  <div className="relative flex justify-end w-[100vw] h-[100%]">
                     {/* Nav Content */}
                     <div className='bg-white flex flex-col w-[10vw] h-full text-black sm:w-[100vw] md:w-[40vw]'>
                       {/* Nav Header */}
