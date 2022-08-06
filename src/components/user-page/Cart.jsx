@@ -3,9 +3,8 @@ import Footer from './Footer'
 import Nav from './Nav'
 import { Link } from 'react-router-dom'
 
-import {BsFillTrashFill} from 'react-icons/bs'
 import {MdOutlineDelete} from 'react-icons/md'
-import OrderInformationModal from './OrderInformationModal'
+import OrderCartProcess from './OrderCartProcess'
 
 function Cart() {
   return (
@@ -45,7 +44,7 @@ function Cart() {
           </div>
           {/* Order Details Content */}
           <div className="mt-8 px-0">
-            <OrderInformationModal/>
+            <OrderCartProcess/>
           </div>
         </div>
         {/* Footer */}

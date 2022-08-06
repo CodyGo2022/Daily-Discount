@@ -24,11 +24,11 @@ function OrderDetails() {
               <div className="flex flex-row items-center">
                 <span className='text-sm font-semibold ml-2 sm:ml-0 text-xs'>Vexana - Sanguine Rose</span>
               </div>
-              <ul className="flex justify-between w-2/5 text-sm sm:hidden md:hidden 3xl:flex">
-                <li className='text-sm'>₱ 479.00</li>
-                <li className='text-sm'>July 4, 2022</li>
-                <li className='text-sm'>Pending</li>
-                <li className='text-sm underline text-blue'>Edit</li>
+              <ul className="flex justify-between text-sm sm:hidden md:hidden">
+                <li className='text-sm pl-6'>₱ 479.00</li>
+                <li className='text-sm pl-6'>July 4, 2022</li>
+                <li className='text-sm pl-6'>Pending</li>
+                <li className='text-sm pl-6 underline text-blue'>Edit</li>
                 <li>
                   <button className='bg-white rounded-full p-0 hover:bg-white-10 sm:block p-1 md:block p-2 3xl:hidden'>
                     <BsArrowUpRightCircle/>
