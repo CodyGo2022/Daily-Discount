@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from './Footer'
 import Nav from './Nav'
 import {BsArrowUpRightCircle} from 'react-icons/bs'
 
@@ -20,26 +19,23 @@ function OrderDetails() {
           {/* Order Details Content */}
           <div className="grid grid-rows-1 grid-flow-row gap-2 pt-2 sm:grid-cols-1">
             {/* Card Content */}
-            <div className="row-span-1 w-full bg-white flex items-center justify-between p-4">
+            <button className="row-span-1 w-full bg-white flex items-center justify-between p-4">
               <div className="flex flex-row items-center">
-                <span className='text-sm font-semibold ml-2 sm:ml-0 text-xs'>Vexana - Sanguine Rose</span>
+                <span className='text-sm font-semibold ml-2 sm:ml-0 text-xs'>Transaction Number</span>
               </div>
               <ul className="flex justify-between text-sm sm:hidden md:hidden">
-                <li className='text-sm pl-6'>₱ 479.00</li>
-                <li className='text-sm pl-6'>July 4, 2022</li>
-                <li className='text-sm pl-6'>Pending</li>
-                <li className='text-sm pl-6 underline text-blue'>Edit</li>
+                <li className='text-sm pl-6'>amount</li>
+                <li className='text-sm pl-6'>order_date</li>
+                <li className='text-sm pl-6'>status</li>
                 <li>
                   <button className='bg-white rounded-full p-0 hover:bg-white-10 sm:block p-1 md:block p-2 3xl:hidden'>
                     <BsArrowUpRightCircle/>
                   </button>
                 </li>
               </ul>
-            </div>
+            </button>
           </div>
         </div>
-        {/* Footer */}
-        <Footer/>
       </div>
     </>
   )

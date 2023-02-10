@@ -18,7 +18,7 @@ function OrderCartProcess() {
         <div className='flex justify-center items-center overflow-x-hidden overflow-y-auto fixed inset-0 z-50 bg-black bg-opacity-80'>
           <div className="relative flex justify-center w-[100vw]">
             {/* Card Content */}
-            <div className='bg-white flex flex-col w-9/12 h-full text-black sm:w-11/12'>
+            <div className='bg-white flex flex-col w-2/4 h-full text-black sm:w-11/12'>
               {/* Card Header */}
               <div className="flex flex-row justify-between text-black text-sm p-4">
                 <section>
@@ -35,30 +35,25 @@ function OrderCartProcess() {
               <div className="flex flex-row">
                 {/* Form */}
                 <form action='#' className="h-full w-full p-4">
-                  {/* Facebook Name */}
-                  <label className="block mb-3">
-                    <span className="text-black text-xs font-semibold sm:text-xs md:text-sm 3xl:text-sm">Facebook Name <span className='text-[red]'>*</span></span>
-                    <input type="text" placeholder='Juan Dela Cruz' name="" id="" className="mt-0 block w-full px-0 py-1 5 border-0 border-b-2 border-white-20 focus:ring-0 focus:border-black text-sm sm:text-xs md:text-sm 3xl:text-sm"/>
-                  </label>
                   {/* In-game Name */}
                   <label className="block mb-3">
-                    <span className="text-black text-xs font-semibold sm:text-xs md:text-sm 3xl:text-sm">In-game Name <span className='text-[red]'>*</span></span>
-                    <input type="email" placeholder='MoonKnight' name="" id="" className="mt-0 block w-full px-0 py-1 5 border-0 border-b-2 border-white-20 focus:ring-0 focus:border-black text-sm sm:text-xs md:text-sm 3xl:text-sm"/>
+                    <span className="text-black text-xs font-semibold sm:text-xs md:text-sm 3xl:text-sm">In-game Name</span>
+                    <input type="email" placeholder='in_game_name' name="" id="" className="mt-0 block w-full px-0 py-1 5 border-0 border-b-2 border-white-20 focus:ring-0 focus:border-black text-sm sm:text-xs md:text-sm 3xl:text-sm" disabled/>
                   </label>
                   {/* User ID */}
                   <label className="block mb-3">
-                    <span className="text-black text-xs font-semibold sm:text-xs md:text-sm 3xl:text-sm">User ID <span className='text-[red]'>*</span></span>
-                    <input type="text" placeholder='95034790' name="" id="" className="mt-0 block w-full px-0 py-1 5 border-0 border-b-2 border-white-20 focus:ring-0 focus:border-black text-sm sm:text-xs md:text-sm 3xl:text-sm"/>
+                    <span className="text-black text-xs font-semibold sm:text-xs md:text-sm 3xl:text-sm">User ID</span>
+                    <input type="text" placeholder='in_game_id' name="" id="" className="mt-0 block w-full px-0 py-1 5 border-0 border-b-2 border-white-20 focus:ring-0 focus:border-black text-sm sm:text-xs md:text-sm 3xl:text-sm" disabled/>
                   </label>
                   {/* Server ID */}
                   <label className="block mb-3">
-                    <span className="text-black text-xs font-semibold sm:text-xs md:text-sm 3xl:text-sm">Server ID <span className='text-[red]'>*</span></span>
-                    <input type="text" placeholder='3222' name="" id="" className="mt-0 block w-full px-0 py-1 5 border-0 border-b-2 border-white-20 focus:ring-0 focus:border-black text-sm sm:text-xs md:text-sm 3xl:text-sm"/>
+                    <span className="text-black text-xs font-semibold sm:text-xs md:text-sm 3xl:text-sm">Server ID</span>
+                    <input type="text" placeholder='in_game_server' name="" id="" className="mt-0 block w-full px-0 py-1 5 border-0 border-b-2 border-white-20 focus:ring-0 focus:border-black text-sm sm:text-xs md:text-sm 3xl:text-sm" disabled/>
                   </label>
                   {/* Payment Method */}
                   <label className="block mb-3">
                     <span className="text-black text-xs font-semibold sm:text-xs md:text-sm 3xl:text-sm">Payment Method</span>
-                    <span className="text-black text-xs ml-1 sm:text-xs md:text-sm 3xl:text-sm">(GCash, Paymaya) <span className='text-[red]'>*</span></span>
+                    <span className="text-black text-xs ml-1 sm:text-xs md:text-sm 3xl:text-sm">(GCash, Paymaya)</span>
                     {/* <input type="text" placeholder='Select Payment Method' name="" id="" className="mt-0 block w-full px-0 5 border-0 border-b-2 border-white-20 focus:ring-0 focus:border-black text-sm sm:text-xs md:text-sm 3xl:text-sm"/> */}
                     <select name="" id="" className="mt-0 block w-full px-0 py-1 5 border-0 border-b-2 border-white-20 focus:ring-0 focus:border-black text-sm sm:text-xs md:text-sm 3xl:text-sm">
                       <option value="Select Payment Method" disabled>Select Payment Method</option>
@@ -68,14 +63,14 @@ function OrderCartProcess() {
                   </label>
                   {/* Proof of Payment */}
                   <label className="block mb-3">
-                    <span className="text-black text-xs font-semibold sm:text-xs md:text-sm 3xl:text-sm">Proof of Payment <span className='text-[red]'>*</span></span>
+                    <span className="text-black text-xs font-semibold sm:text-xs md:text-sm 3xl:text-sm">Proof of Payment</span>
                     {/* <input type="text" placeholder='Upload Receipt' name="" id="" className="mt-0 block w-full px-0 5 border-0 border-b-2 border-white-20 focus:ring-0 focus:border-black text-sm sm:text-xs md:text-sm 3xl:text-sm"/> */}
                     <input type="file" name="" id="" className="mt-0 block w-full px-0 py-1 5 border-0 border-b-2 border-white-20 focus:ring-0 focus:border-black text-sm sm:text-xs md:text-sm 3xl:text-sm"/>
                   </label>
                   {/* Total Payment */}
                   <label className="block mb-3">
-                    <span className="text-black text-xs font-semibold sm:text-xs md:text-sm 3xl:text-sm">Total Payment <span className='text-[red]'>*</span></span>
-                    <input type="text" placeholder='Php xxx.xx' name="" id="" className="mt-0 block w-full px-0 py-1 5 border-0 border-b-2 border-white-20 focus:ring-0 focus:border-black text-sm sm:text-xs md:text-sm 3xl:text-sm"/>
+                    <span className="text-black text-xs font-semibold sm:text-xs md:text-sm 3xl:text-sm">Total Payment</span>
+                    <input type="text" placeholder='total' name="" id="" className="mt-0 block w-full px-0 py-1 5 border-0 border-b-2 border-white-20 focus:ring-0 focus:border-black text-sm sm:text-xs md:text-sm 3xl:text-sm" disabled/>
                   </label>
                   {/* Next Process button */}
                   <button className='bg-blue text-sm h-8 w-28 text-white mt-3 sm:text-xs md:text-sm 3xl:text-sm' onClick={() => setShowModal(false) ?? setShowVerification(true)}>
@@ -111,35 +106,30 @@ function OrderCartProcess() {
               <form action='#' className="h-full w-full p-4">
                 {/* User Information */}
                 <div className="grid grid-cols-3 gap-2 sm:grid-cols-1">
-                  {/* Facebook Name */}
-                  <label className="block mb-3 sm:mb-1">
-                    <span className="text-black text-xs font-semibold sm:text-xs md:text-sm 3xl:text-sm">Facebook Name</span>
-                    <p className="text-black text-xs sm:text-xs md:text-sm 3xl:text-sm">Juan Dela Cruz</p>
-                  </label>
                   {/* User ID */}
                   <label className="block mb-3 sm:mb-1">
                     <span className="text-black text-xs font-semibold sm:text-xs md:text-sm 3xl:text-sm">User ID</span>
-                    <p className="text-black text-xs sm:text-xs md:text-sm 3xl:text-sm">95034790</p>
-                  </label>
-                  {/* Payment Method */}
-                  <label className="block mb-3 sm:mb-1">
-                    <span className="text-black text-xs font-semibold sm:text-xs md:text-sm 3xl:text-sm">Payment Method</span>
-                    <p className="text-black text-xs sm:text-xs md:text-sm 3xl:text-sm">GCash</p>
+                    <p className="text-black text-xs sm:text-xs md:text-sm 3xl:text-sm">in_game_id</p>
                   </label>
                   {/* In-Game Name */}
                   <label className="block mb-3 sm:mb-1">
                     <span className="text-black text-xs font-semibold sm:text-xs md:text-sm 3xl:text-sm">In-Game Name</span>
-                    <p className="text-black text-xs sm:text-xs md:text-sm 3xl:text-sm">MoonKnight</p>
+                    <p className="text-black text-xs sm:text-xs md:text-sm 3xl:text-sm">in_game_name</p>
                   </label>
                   {/* Server ID */}
                   <label className="block mb-3 sm:mb-1">
                     <span className="text-black text-xs font-semibold sm:text-xs md:text-sm 3xl:text-sm">Server ID</span>
-                    <p className="text-black text-xs sm:text-xs md:text-sm 3xl:text-sm">3222</p>
+                    <p className="text-black text-xs sm:text-xs md:text-sm 3xl:text-sm">in_game_server</p>
+                  </label>
+                  {/* Payment Method */}
+                  <label className="block mb-3 sm:mb-1">
+                    <span className="text-black text-xs font-semibold sm:text-xs md:text-sm 3xl:text-sm">Payment Method</span>
+                    <p className="text-black text-xs sm:text-xs md:text-sm 3xl:text-sm">payment_method</p>
                   </label>
                   {/* Proof of Payment */}
                   <label className="block mb-3 sm:mb-1">
                     <span className="text-black text-xs font-semibold sm:text-xs md:text-sm 3xl:text-sm">Proof of Payment</span>
-                    <p className="text-black text-xs sm:text-xs md:text-sm 3xl:text-sm">Filename.jpg</p>
+                    <p className="text-black text-xs sm:text-xs md:text-sm 3xl:text-sm">proof_of_payment</p>
                   </label>
                 </div>
                 {/* User Cart */}
@@ -149,11 +139,11 @@ function OrderCartProcess() {
                   <div className="grid grid-row-1 gap-2">
                     <section className="w-full h-full bg-white flex items-center justify-between py-2">
                       <div className="flex flex-row items-center">
-                        <span className='text-sm font-semibold sm:text-xs md:text-sm 3xl:text-sm'>Vexana - Sanguine Rose</span>
+                        <span className='text-sm font-semibold sm:text-xs md:text-sm 3xl:text-sm'>name</span>
                       </div>
-                      <ul className="flex justify-between items-center w-96 text-sm sm:w-[150px] md:w-[240px] 3xl:w-96">
-                        <li className='text-sm sm:text-xs text-center md:text-sm 3xl:text-sm'>₱ 479.00</li>
-                        <li className='text-sm sm:text-xs text-center md:text-sm 3xl:text-sm'>Qty: <span className='text-sm font-semibold sm:text-xs text-center md:text-sm 3xl:text-sm'>x1</span></li>
+                      <ul className="flex justify-between items-center w-96 text-sm bg-white-200 sm:w-[150px] md:w-[240px] 3xl:w-96">
+                        <li className='text-sm sm:text-xs text-center md:text-sm 3xl:text-sm'>price</li>
+                        <li className='text-sm sm:text-xs text-center md:text-sm 3xl:text-sm'>Qty: <span className='text-sm font-semibold sm:text-xs text-center md:text-sm 3xl:text-sm'>quantity</span></li>
                         <li className='text-sm text-blue sm:text-xs text-center hidden md:hidden text-sm 3xl:block text-sm'>
                           <button className='bg-red w-28 h-8 text-white flex text-sm items-center justify-center'>
                             <MdOutlineDelete className='mr-1 w-5 h-full'/>

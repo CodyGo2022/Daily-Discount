@@ -26,8 +26,6 @@ function OrderCemplete() {
             </div>
           </div>
         </div>
-        {/* Footer */}
-        <Footer/>
       </div>
     </>
   )

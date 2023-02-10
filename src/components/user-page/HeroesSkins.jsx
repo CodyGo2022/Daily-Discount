@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from './Footer'
 import Nav from './Nav'
 
 import {IoAdd} from 'react-icons/io5'
@@ -11,7 +10,7 @@ function HeroesSkins() {
         {/* Nav */}
         <Nav/>
         {/* Body */}
-        <div className="container mx-auto flex flex-col h-full px-8 sm:px-3">
+        <div className="container mx-auto flex flex-col h-full px-10 sm:px-3 mb-20 md:px-3 3xl:px-10">
           {/* Banner */}
           <div className="h-60 w-full p-2 sm:h-40 p-0 pt-8 md:h-60 3xl:h-60">
             <div className="flex flex-col justify-end h-full text-white-10 bg-heroes-1 p-4 bg-cover bg-black bg-blend-overlay bg-top">
@@ -36,8 +35,6 @@ function HeroesSkins() {
             </div>
           </div>
         </div>
-        {/* Footer */}
-        <Footer/>
       </div>
     </>
   )

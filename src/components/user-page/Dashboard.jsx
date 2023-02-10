@@ -12,7 +12,7 @@ function Dashboard() {
         {/* Body */}
         <Body/>
         {/* Footer */}
-        <Footer/>
+        {/* <Footer/> */}
       </div>
     </>
   )
