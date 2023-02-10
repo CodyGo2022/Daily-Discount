@@ -141,7 +141,7 @@ function OrderCartProcess() {
                       <div className="flex flex-row items-center">
                         <span className='text-sm font-semibold sm:text-xs md:text-sm 3xl:text-sm'>name</span>
                       </div>
-                      <ul className="flex justify-between items-center w-96 text-sm bg-white-200 sm:w-[150px] md:w-[240px] 3xl:w-96">
+                      <ul className="flex justify-between items-center w-96 text-sm sm:w-[150px] md:w-[240px] 3xl:w-96">
                         <li className='text-sm sm:text-xs text-center md:text-sm 3xl:text-sm'>price</li>
                         <li className='text-sm sm:text-xs text-center md:text-sm 3xl:text-sm'>Qty: <span className='text-sm font-semibold sm:text-xs text-center md:text-sm 3xl:text-sm'>quantity</span></li>
                         <li className='text-sm text-blue sm:text-xs text-center hidden md:hidden text-sm 3xl:block text-sm'>
